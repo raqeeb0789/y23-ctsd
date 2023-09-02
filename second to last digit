@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int a,x;
+	printf("enter four digit number");
+	scanf("%d",&a);
+	x=a%100;
+	x=x/10;
+	printf("the digit from last two:%d",x);
+	return 0;
+}
